@@ -5,4 +5,4 @@ app= FastAPI()
 
 @app.get("/")
 def health_check():
-    return {"message": "Hello World!"}
+    return {"message": "Hello Everyone, I am alive!"}
